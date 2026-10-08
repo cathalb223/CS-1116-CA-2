@@ -1,0 +1,41 @@
+@font-face {
+    font-family:Pixelify Sans;
+    src: url(PixelifySans-VariableFont_wght.ttf)
+}
+
+html {
+    font-family: Pixelify Sans;
+    color: rgb(144, 98, 93);
+    background-color: rgb(192, 212, 112);
+}
+
+canvas {
+    background-color: black;
+    display: block;
+    margin: 1em auto;
+    border: 7px solid rgb(196, 154, 108);
+    border-radius: 5px;
+
+}
+
+#outcome {
+    color:red;
+    text-align: center;
+    font-size: 4em;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+
+}
+
+section {
+    width: 20%;
+}
